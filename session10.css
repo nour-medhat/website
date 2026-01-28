@@ -1,0 +1,42 @@
+h1{
+    text-decoration-line: line-through;
+    text-decoration-color: brown;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 10px;
+
+    text-decoration: overline blue solid 5px;
+}
+
+/* text transformation */
+/* uppercase --- بتخلي كل الحروف كابيتل  */
+/* lowercase --- هتخليهم كلهم سمول */
+/* capitalize --- بتخلي اول حرف من كل كلمه كابيتل */
+p{
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    font-size: 35px;
+    /* spacing */
+    text-indent:100px;
+    letter-spacing: 10px;
+    word-spacing: 50px;
+    line-height: 100px;
+
+    /* text shadow : horizational vertical blur color*/
+    /* horizational (+) -- right    (-)-- left*/
+    /* vertical (+)down    (-)up*/
+    text-shadow: -10px -10px 3px brown;
+
+   
+
+
+
+
+
+
+}
+
+/*text-indent-- مهمتها انهها تسبلي اسبيس من اول سطر او اول براجراف */
+/* letter-spacing: تسيب بين كل حرف والتاني مسافه معينه */
+/* word-spacing:  يتسيب مسافه بين كل كلمه والتانيه */
+/* line-height: بتحددلي المسافه اللي بين كل سطر والتاني */
